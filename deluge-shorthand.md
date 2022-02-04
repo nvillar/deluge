@@ -75,8 +75,8 @@
 | Action                                                  | Sequence                                           |
 | ------------------------------------------------------- | -------------------------------------------------- |
 | New init synth                                          | [SHIFT [SYNTH]]                                    |
-| Load single cycle sample                                | [SHIT [*BROWSE*]] [SELECT] (SELECT) [SELECT] [BACK]|
-| Load long (basic) or multi samples                      | [SHIT [*BROWSE*]] [SELECT] (SELECT) \<SELECT> (SELECT) [SELECT] [BACK]|
+| Load single cycle sample                                | [SHIFT [*BROWSE*]] [SELECT] (SELECT) [SELECT] [BACK]|
+| Load long (basic) or multi samples                      | [SHIFT [*BROWSE*]] [SELECT] (SELECT) \<SELECT> (SELECT) [SELECT] [BACK]|
 | Save synth as new preset                                | [SAVE [SYNTH]] (SELECT) [SELECT]                   |
 | Synth resample                                          | [RECORD [AUDITION]]                                |
 
