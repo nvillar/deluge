@@ -111,8 +111,8 @@
 | ------------------------------------------------------- | ------------------------------------------------- |
 | Enter waveform file editor in audio clip view           | [SHIFT [*WAVEFORM* PAD 1,1]]                      |
 | Change start/end points of sample                       | [Green/Red PAD] [PAD]                             |
-| Set loop start point                                    | [Green PAD [PAD to the right]                     |
-| Set loop end point                                      | [Red PAD [PAD to the left]                        |
+| Set loop start point                                    | [Green PAD [PAD to the right]]                    |
+| Set loop end point                                      | [Red PAD [PAD to the left]]                       |
 | Change loop start/end point                             | [Blue/Purple PAD] [PAD]                           |
 | Delete loop points at start/end                         | [Blue PAD [Green PAD]] / [Purple PAD [Red PAD]]   | 
 
