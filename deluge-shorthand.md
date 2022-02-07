@@ -18,7 +18,7 @@
 | Change tempo coarse / fine                              | (TEMPO) / {TEMPO}                                 |
 | Metronome                                               | [SHIFT [TAP TEMPO]]                               |
 | Swing                                                   | [SHIFT (TEMPO)]                                   |
-| Adjust brighness                                        | [SHIFT [LEARN] (TURN)]                            |
+| Adjust brightness                                       | [SHIFT [LEARN] (VSCROLL)]                         |
 | Firmware update                                         | [SHIFT [POWER ON]]                                |
 | Settings menu                                           | [SHIFT [SELECT]]                                  |
 | Open sound editor                                       | [SELECT] (HSCROLL)                                |
