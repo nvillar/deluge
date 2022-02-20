@@ -5,7 +5,7 @@
 | Action                                                  | Sequence                                          |
 | ------------------------------------------------------- | ------------------------------------------------- |
 | View / change zoom level                                | [HSCROLL] / {HSCROLL}                             |
-| Scroll grid up-down / left-right                        | (VSCROLL/HSCROLL)                                 |
+| Scroll grid up-down / left-right                        | (VSCROLL / HSCROLL)                               |
 | New song                                                | [SHIFT [*NEW*]] [*NEW*]                           |
 | Delete song                                             | [LOAD] (SELECT) [SHIFT [*DELETE*]] [*DELETE*]     |
 | Load song                                               | [LOAD] (SELECT) [LOAD]                            |
@@ -77,6 +77,7 @@
 | New init synth                                          | [SHIFT [SYNTH]]                                    |
 | Load single cycle sample                                | [SHIFT [*BROWSE*]] [SELECT] (SELECT) [SELECT] [BACK]|
 | Load long (basic) or multi samples                      | [SHIFT [*BROWSE*]] [SELECT] (SELECT) \<SELECT> (SELECT) [SELECT] [BACK]|
+| Record sample / stop recording                          | [SHIFT [PAD 1,4]] [SHIFT [PAD 1,4]] / [RECORD]     |
 | Save synth as new preset                                | [SAVE [SYNTH]] (SELECT) [SELECT]                   |
 | Synth resample                                          | [RECORD [AUDITION]]                                |
 
@@ -85,7 +86,7 @@
 | Action                                                  | Sequence                                          |
 | ------------------------------------------------------- | ------------------------------------------------- |
 | New init kit                                            | [SHIFT [KIT]]                                     |
-| Save kit as new preset                                  | [SAVE [KIT]] (SELECT) [SELECT]                    |
+| Save kit as new preset                                  | [SAVE [KIT]] (SELECT) [SAVE]                      |
 | Move kit clip row up/down                               | [AUDITION {VSCROLL}]                              |
 | Add instrument into a blank kit row                     | [AUDITION [KIT]] (SELECT) [SELECT]                |
 | Start/stop recording sample from input into kit         | [AUDITION [RECORD]] / [RECORD]                    |
@@ -247,5 +248,6 @@ Actions can be *nested* to represent order of operations. For example creating a
 | Version | Changes                                 |
 | ------- | --------------------------------------- |
 | 1.0     | Initial release for firmware version 3.1| 
+| 1.1     | Corrections, added sample recording| 
 
 Latest version can be found at **github.com/nvillar/deluge**
